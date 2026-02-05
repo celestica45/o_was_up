@@ -703,7 +703,7 @@
             },
             "attrs": {
               "text": {
-                "text": "Web Application"
+                "text": "Authorization Provider"
               },
               "body": {
                 "stroke": "#333333",
@@ -799,7 +799,7 @@
             "id": "588281b3-eb50-464f-b53a-113b384af1a2",
             "data": {
               "type": "tm.Process",
-              "name": "Web Application",
+              "name": "Authorization Provider",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -810,6 +810,13 @@
               "isWebApplication": false,
               "privilegeLevel": "",
               "threats": []
+            },
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove"
+              ],
+              "name": null
             }
           },
           {
