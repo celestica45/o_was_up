@@ -1108,7 +1108,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Instant Feedback \nComments",
+              "name": "User Sends Credentials",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -1122,7 +1122,7 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "Instant Feedback \nComments"
+              "User Sends Credentials"
             ],
             "id": "e5d618e3-5177-4cb6-b7b8-e408dc17a89f",
             "source": {
