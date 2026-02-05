@@ -143,7 +143,7 @@
           },
           {
             "position": {
-              "x": 1020,
+              "x": 1040,
               "y": 740
             },
             "size": {
@@ -296,6 +296,58 @@
               {
                 "x": 710,
                 "y": 550
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Data Flow",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Data Flow"
+            ],
+            "id": "30173c65-f6a2-43be-b9be-02651b57f91e",
+            "source": {
+              "x": 500,
+              "y": 450
+            },
+            "target": {
+              "x": 520,
+              "y": 680
+            },
+            "vertices": [
+              {
+                "x": 480,
+                "y": 560
               }
             ]
           },
@@ -646,16 +698,16 @@
             ],
             "id": "0cfa43d5-ab0e-4094-9881-6e1a069c3ad6",
             "source": {
-              "x": 694,
+              "x": 714,
               "y": 764
             },
             "target": {
-              "x": 994,
+              "x": 1014,
               "y": 764
             },
             "vertices": [
               {
-                "x": 844,
+                "x": 864,
                 "y": 724
               }
             ]
@@ -698,16 +750,16 @@
             ],
             "id": "7fd3d21b-4e04-4b76-9647-5f5d549a86d5",
             "source": {
-              "x": 984,
+              "x": 1024,
               "y": 784
             },
             "target": {
-              "x": 694,
+              "x": 734,
               "y": 784
             },
             "vertices": [
               {
-                "x": 834,
+                "x": 874,
                 "y": 824
               }
             ]
@@ -922,8 +974,8 @@
           },
           {
             "position": {
-              "x": 860,
-              "y": 320
+              "x": 790,
+              "y": 240
             },
             "size": {
               "width": 220,
@@ -1038,14 +1090,7 @@
               "privilegeLevel": "",
               "threats": []
             },
-            "zIndex": 28,
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove"
-              ],
-              "name": null
-            }
+            "zIndex": 28
           },
           {
             "shape": "flow",
@@ -1084,16 +1129,16 @@
             ],
             "id": "00e8fca9-da27-45ee-86b4-549ccf985178",
             "source": {
-              "x": 756,
+              "x": 716,
               "y": 376
             },
             "target": {
-              "x": 1056,
+              "x": 1016,
               "y": 376
             },
             "vertices": [
               {
-                "x": 906,
+                "x": 866,
                 "y": 336
               }
             ],
@@ -1150,6 +1195,52 @@
               }
             ],
             "zIndex": 30
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 31,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Data Flow",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Data Flow"
+            ],
+            "id": "78e95605-b3c7-4e92-883f-cce95be9b8da",
+            "source": {
+              "x": 1080,
+              "y": 640
+            },
+            "target": {
+              "x": 1080,
+              "y": 430
+            }
           }
         ],
         "description": "Use OWASP Threat Dragon to recreate the reference data flow diagram. Note: Threats and Scores/Priority Levels are not included in this activity."
