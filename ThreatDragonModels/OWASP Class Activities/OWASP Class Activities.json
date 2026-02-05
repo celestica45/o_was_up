@@ -371,7 +371,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Auth\nVerification",
+              "name": "Auth\n\nVerification",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -385,7 +385,7 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "Auth\nVerification"
+              "Auth\n\nVerification"
             ],
             "id": "598c3eb0-7b86-4b53-94d4-d251a6cef435",
             "source": {
