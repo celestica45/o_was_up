@@ -970,7 +970,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Instant Feedback  Comments",
+              "name": "Instant Feedback Comments",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -984,7 +984,7 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "Instant Feedback  Comments"
+              "Instant Feedback Comments"
             ],
             "id": "9dc5c849-b694-4e45-ab36-19c9e5e397da",
             "source": {
