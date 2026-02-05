@@ -304,22 +304,22 @@
             "id": "30173c65-f6a2-43be-b9be-02651b57f91e",
             "source": {
               "x": 540,
-              "y": 440
+              "y": 430
             },
             "target": {
               "x": 560,
-              "y": 670
+              "y": 660
             },
             "vertices": [
               {
                 "x": 520,
-                "y": 550
+                "y": 540
               }
             ]
           },
           {
             "position": {
-              "x": 470,
+              "x": 490,
               "y": 620
             },
             "size": {
@@ -552,6 +552,13 @@
               "hasOpenThreats": false,
               "providesAuthentication": false,
               "threats": []
+            },
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove"
+              ],
+              "name": null
             }
           },
           {
@@ -738,8 +745,8 @@
               "y": 800
             },
             "target": {
-              "x": 480,
-              "y": 800
+              "x": 500,
+              "y": 810
             },
             "vertices": [
               {
@@ -842,15 +849,85 @@
               "y": 692
             },
             "target": {
-              "x": 472,
-              "y": 692
+              "x": 500,
+              "y": 700
             },
             "vertices": [
               {
                 "x": 316,
                 "y": 666
               }
-            ]
+            ],
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead"
+              ],
+              "name": null
+            }
           },
           {
             "shape": "flow",
@@ -890,8 +967,8 @@
             ],
             "id": "dc12caab-1a87-43b5-b496-aa515eb51641",
             "source": {
-              "x": 472,
-              "y": 722
+              "x": 500,
+              "y": 720
             },
             "target": {
               "x": 176,
@@ -906,8 +983,8 @@
           },
           {
             "position": {
-              "x": 480,
-              "y": 190
+              "x": 470,
+              "y": 180
             },
             "size": {
               "width": 220,
@@ -1167,16 +1244,16 @@
             "id": "2d565405-2d0f-4345-8e85-2b13b8750945",
             "source": {
               "x": 630,
-              "y": 670
+              "y": 650
             },
             "target": {
               "x": 630,
-              "y": 440
+              "y": 420
             },
             "vertices": [
               {
                 "x": 660,
-                "y": 560
+                "y": 540
               }
             ]
           },
@@ -1246,17 +1323,7 @@
                 "y": 532
               }
             ],
-            "zIndex": 33,
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead"
-              ],
-              "name": null
-            }
+            "zIndex": 33
           }
         ],
         "description": "Use OWASP Threat Dragon to recreate the reference data flow diagram. Note: Threats and Scores/Priority Levels are not included in this activity."
