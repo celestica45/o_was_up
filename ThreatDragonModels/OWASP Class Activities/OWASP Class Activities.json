@@ -423,7 +423,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Verifies the Privilege",
+              "name": "Verifies the\n\n Privilege",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -437,7 +437,7 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "Verifies the Privilege"
+              "Verifies the\n\n Privilege"
             ],
             "id": "f15e80a9-1a30-4cc9-aa49-f07652fb3c8f",
             "source": {
@@ -672,7 +672,7 @@
             },
             "attrs": {
               "text": {
-                "text": "Authorization Provide"
+                "text": "Authorization \n\nProvider"
               },
               "body": {
                 "stroke": "#333333",
@@ -768,7 +768,7 @@
             "id": "f143be85-aa58-41bb-b25a-bf5f77da1054",
             "data": {
               "type": "tm.Process",
-              "name": "Authorization \nProvider",
+              "name": "Authorization \n\nProvider",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -955,7 +955,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Insert Query With Feedback Comments",
+              "name": "Insert Query With\n\n Feedback Comments",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -969,7 +969,7 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "Insert Query With Feedback Comments"
+              "Insert Query With\n\n Feedback Comments"
             ],
             "id": "0cfa43d5-ab0e-4094-9881-6e1a069c3ad6",
             "source": {
@@ -1007,7 +1007,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Data Flow",
+              "name": "Success = 1",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -1021,7 +1021,7 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "Data Flow"
+              "Success = 1"
             ],
             "id": "7fd3d21b-4e04-4b76-9647-5f5d549a86d5",
             "source": {
