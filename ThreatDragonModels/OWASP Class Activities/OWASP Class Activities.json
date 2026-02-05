@@ -1214,6 +1214,7 @@
             "shape": "trust-boundary-curve",
             "width": 200,
             "height": 100,
+            "zIndex": 43,
             "connector": "smooth",
             "data": {
               "type": "tm.Boundary",
@@ -1241,8 +1242,7 @@
                 "x": 834,
                 "y": 524
               }
-            ],
-            "zIndex": 43
+            ]
           }
         ],
         "description": "Use OWASP Threat Dragon to recreate the reference data flow diagram. Note: Threats and Scores/Priority Levels are not included in this activity."
