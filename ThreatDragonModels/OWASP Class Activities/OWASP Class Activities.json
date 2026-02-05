@@ -694,8 +694,8 @@
           },
           {
             "position": {
-              "x": 580,
-              "y": 210
+              "x": 490,
+              "y": 180
             },
             "size": {
               "width": 220,
@@ -988,7 +988,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Verifies the Privileges",
+              "name": "Verifies the Privilege",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -1002,7 +1002,7 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "Verifies the Privileges"
+              "Verifies the Privilege"
             ],
             "id": "eea9fb5e-b9b9-4db5-85c3-766e060cebda",
             "source": {
@@ -1242,17 +1242,7 @@
                 "y": 356
               }
             ],
-            "zIndex": 48,
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead"
-              ],
-              "name": null
-            }
+            "zIndex": 48
           }
         ],
         "description": "No threats"
