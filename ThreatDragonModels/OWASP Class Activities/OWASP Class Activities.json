@@ -474,7 +474,7 @@
           {
             "position": {
               "x": 70,
-              "y": 660
+              "y": 680
             },
             "size": {
               "width": 100,
@@ -810,13 +810,6 @@
               "isWebApplication": false,
               "privilegeLevel": "",
               "threats": []
-            },
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove"
-              ],
-              "name": null
             }
           },
           {
