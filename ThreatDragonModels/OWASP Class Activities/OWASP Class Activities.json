@@ -19,8 +19,8 @@
         "cells": [
           {
             "position": {
-              "x": 660,
-              "y": 530
+              "x": 530,
+              "y": 520
             },
             "size": {
               "width": 130,
@@ -139,8 +139,8 @@
           },
           {
             "position": {
-              "x": 920,
-              "y": 570
+              "x": 860,
+              "y": 520
             },
             "size": {
               "width": 120,
@@ -263,8 +263,8 @@
           },
           {
             "position": {
-              "x": 920,
-              "y": 710
+              "x": 860,
+              "y": 660
             },
             "size": {
               "width": 120,
@@ -403,52 +403,23 @@
             "labels": [
               "Trust Boundary"
             ],
-            "id": "5d464e75-2803-49f7-b7a2-de1ffa90d41c",
+            "id": "84d3e18a-4160-475b-836a-be5dbb22d890",
             "source": {
-              "x": 1000,
-              "y": 450
+              "x": 880,
+              "y": 310
             },
             "target": {
-              "x": 970,
+              "x": 800,
               "y": 880
             },
             "vertices": [
               {
-                "x": 810,
-                "y": 590
-              },
-              {
-                "x": 830,
-                "y": 720
+                "x": 730,
+                "y": 570
               }
             ],
             "tools": {
               "items": [
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
                 "boundary",
                 "button-remove",
                 "vertices",
