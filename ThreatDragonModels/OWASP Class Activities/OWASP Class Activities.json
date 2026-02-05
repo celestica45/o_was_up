@@ -319,7 +319,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Data Flow",
+              "name": "Verified",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -333,21 +333,21 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "Data Flow"
+              "Verified"
             ],
-            "id": "df8bc54a-5908-4014-a6a6-804b81dbf146",
+            "id": "8f9ae2aa-2ff8-4efe-934e-256514bba8bf",
             "source": {
-              "x": 560,
-              "y": 430
+              "x": 450,
+              "y": 690
             },
             "target": {
-              "x": 560,
-              "y": 690
+              "x": 450,
+              "y": 430
             },
             "vertices": [
               {
-                "x": 590,
-                "y": 550
+                "x": 410,
+                "y": 560
               }
             ]
           },
@@ -371,7 +371,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Data Flow",
+              "name": "Auth\nVerification",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -385,20 +385,20 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "Data Flow"
+              "Auth\nVerification"
             ],
-            "id": "8f9ae2aa-2ff8-4efe-934e-256514bba8bf",
+            "id": "598c3eb0-7b86-4b53-94d4-d251a6cef435",
             "source": {
-              "x": 450,
-              "y": 690
+              "x": 540,
+              "y": 440
             },
             "target": {
-              "x": 450,
-              "y": 430
+              "x": 560,
+              "y": 690
             },
             "vertices": [
               {
-                "x": 410,
+                "x": 580,
                 "y": 560
               }
             ]
