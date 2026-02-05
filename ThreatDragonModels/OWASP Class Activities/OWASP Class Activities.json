@@ -1723,8 +1723,8 @@
                 "text": "Browser\n\n Client"
               },
               "body": {
-                "stroke": "#333333",
-                "strokeWidth": 1.5,
+                "stroke": "red",
+                "strokeWidth": 2.5,
                 "strokeDasharray": null
               }
             },
@@ -1821,9 +1821,27 @@
               "isTrustBoundary": false,
               "outOfScope": false,
               "reasonOutOfScope": "",
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
               "providesAuthentication": false,
-              "threats": []
+              "threats": [
+                {
+                  "id": "c090ec77-9e2b-4ff6-92c4-1c84ef04b775",
+                  "title": "Web Application Spoofing",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Spoofing",
+                  "description": "The web application may be spoofed by an attacker and this may lead to unauthorized access to the browser client.",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 1,
+                  "score": ""
+                }
+              ],
+              "threatFrequency": {
+                "spoofing": 1,
+                "repudiation": 0
+              }
             }
           },
           {
@@ -2452,6 +2470,7 @@
             "shape": "trust-boundary-curve",
             "width": 200,
             "height": 100,
+            "zIndex": 43,
             "connector": "smooth",
             "data": {
               "type": "tm.Boundary",
@@ -2479,8 +2498,7 @@
                 "x": 834,
                 "y": 524
               }
-            ],
-            "zIndex": 43
+            ]
           }
         ],
         "description": "With threats"
@@ -2488,6 +2506,6 @@
     ],
     "diagramTop": 5,
     "reviewer": "",
-    "threatTop": 0
+    "threatTop": 1
   }
 }
