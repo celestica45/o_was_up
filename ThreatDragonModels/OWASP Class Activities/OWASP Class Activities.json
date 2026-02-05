@@ -1126,7 +1126,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Verify the Privileges",
+              "name": "Verifies the Privileges",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -1140,7 +1140,7 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "Verify the Privileges"
+              "Verifies the Privileges"
             ],
             "id": "eea9fb5e-b9b9-4db5-85c3-766e060cebda",
             "source": {
