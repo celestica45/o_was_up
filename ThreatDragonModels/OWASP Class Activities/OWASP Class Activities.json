@@ -475,7 +475,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Data Flow",
+              "name": "Verified",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -489,7 +489,7 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "Data Flow"
+              "Verified"
             ],
             "id": "3ff9c3c8-5b7f-4e82-8db2-df7d9c7ab950",
             "source": {
@@ -955,7 +955,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Data Flow",
+              "name": "Insert Query With Feedback Comments",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -969,7 +969,7 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "Data Flow"
+              "Insert Query With Feedback Comments"
             ],
             "id": "0cfa43d5-ab0e-4094-9881-6e1a069c3ad6",
             "source": {
