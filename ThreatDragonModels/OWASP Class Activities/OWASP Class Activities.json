@@ -337,7 +337,7 @@
             ],
             "id": "0d2a8777-5f59-4309-bd76-b641eed5151f",
             "source": {
-              "x": 500,
+              "x": 510,
               "y": 690
             },
             "target": {
@@ -940,7 +940,7 @@
             ],
             "id": "e4d4f0d3-c670-4753-bc06-4d4c1c1417b0",
             "source": {
-              "x": 500,
+              "x": 520,
               "y": 830
             },
             "target": {
@@ -952,7 +952,42 @@
                 "x": 330,
                 "y": 850
               }
-            ]
+            ],
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead"
+              ],
+              "name": null
+            }
           },
           {
             "shape": "flow",
