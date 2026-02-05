@@ -273,7 +273,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Boundary",
-              "name": "Trust Boundary",
+              "name": "Generic Trust Boundary",
               "description": "",
               "isTrustBoundary": true,
               "hasOpenThreats": false,
@@ -281,7 +281,7 @@
               "containedElements": []
             },
             "labels": [
-              "Trust Boundary"
+              "Generic Trust Boundary"
             ],
             "id": "f5aff740-d480-4021-a1c2-d76bb01d83ff",
             "source": {
@@ -469,13 +469,6 @@
               "isWebApplication": false,
               "privilegeLevel": "",
               "threats": []
-            },
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove"
-              ],
-              "name": null
             }
           },
           {
@@ -1163,10 +1156,11 @@
             },
             "width": 200,
             "height": 100,
+            "zIndex": 41,
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Insert Query With Feedback Comments",
+              "name": "Verify the Privileges",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -1180,7 +1174,7 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "Insert Query With\n\n Feedback Comments"
+              "Verify the Privileges"
             ],
             "id": "eea9fb5e-b9b9-4db5-85c3-766e060cebda",
             "source": {
@@ -1196,8 +1190,7 @@
                 "x": 836,
                 "y": 266
               }
-            ],
-            "zIndex": 41
+            ]
           },
           {
             "shape": "flow",
@@ -1215,10 +1208,11 @@
             },
             "width": 200,
             "height": 100,
+            "zIndex": 42,
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Success = 1",
+              "name": "Verified",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -1232,7 +1226,7 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "Success = 1"
+              "Verified"
             ],
             "id": "393003eb-f963-4e8e-882c-e8c5c30857cc",
             "source": {
@@ -1248,8 +1242,7 @@
                 "x": 846,
                 "y": 356
               }
-            ],
-            "zIndex": 42
+            ]
           }
         ],
         "description": "Use OWASP Threat Dragon to recreate the reference data flow diagram. Note: Threats and Scores/Priority Levels are not included in this activity."
