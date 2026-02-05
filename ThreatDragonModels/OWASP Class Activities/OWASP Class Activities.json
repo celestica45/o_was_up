@@ -38,6 +38,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 1,
             "ports": {
               "groups": {
                 "top": {
@@ -121,7 +122,6 @@
               ]
             },
             "id": "60559d55-bbf3-4148-8baf-398b789291eb",
-            "zIndex": 1,
             "data": {
               "type": "tm.Process",
               "name": "Authorization \nProvider",
@@ -161,6 +161,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 2,
             "ports": {
               "groups": {
                 "top": {
@@ -244,7 +245,6 @@
               ]
             },
             "id": "252e44b6-62a1-4d34-b4a9-518f91df250a",
-            "zIndex": 2,
             "data": {
               "type": "tm.Store",
               "name": "LDAP",
@@ -285,6 +285,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 3,
             "ports": {
               "groups": {
                 "top": {
@@ -368,7 +369,6 @@
               ]
             },
             "id": "b0ac17f7-5d0a-4e83-acf2-00dcb460af08",
-            "zIndex": 3,
             "data": {
               "type": "tm.Store",
               "name": "SQL Database",
@@ -403,21 +403,25 @@
             "labels": [
               "Trust Boundary"
             ],
-            "id": "c79a94a9-0ad3-4836-aeae-fd1c07906525",
+            "id": "aa377695-1f99-4eac-a0eb-bed4b3c96ff9",
             "source": {
-              "x": 818,
-              "y": 610
+              "x": 900,
+              "y": 470
             },
             "target": {
-              "x": 918,
-              "y": 710
+              "x": 880,
+              "y": 780
             },
-            "vertices": [
-              {
-                "x": 690,
-                "y": 750
-              }
-            ]
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead"
+              ],
+              "name": null
+            }
           }
         ],
         "description": "Use OWASP Threat Dragon to recreate the reference data flow diagram. Note: Threats and Scores/Priority Levels are not included in this activity."
