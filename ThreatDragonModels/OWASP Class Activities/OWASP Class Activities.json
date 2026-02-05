@@ -2483,7 +2483,7 @@
             "zIndex": 43
           }
         ],
-        "description": "Use OWASP Threat Dragon to recreate the reference data flow diagram. Note: Threats and Scores/Priority Levels are not included in this activity."
+        "description": "Use OWASP Threat Dragon to map the given threats to the components in your data flow diagram from the previous activity. "
       }
     ],
     "diagramTop": 4,
