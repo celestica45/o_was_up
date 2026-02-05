@@ -319,7 +319,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Data Flow",
+              "name": "Verified",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -333,7 +333,7 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "Data Flow"
+              "Verified"
             ],
             "id": "30173c65-f6a2-43be-b9be-02651b57f91e",
             "source": {
@@ -832,7 +832,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Data Flow",
+              "name": "Auth Verification",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -846,7 +846,7 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "Data Flow"
+              "Auth Verification"
             ],
             "id": "2d565405-2d0f-4345-8e85-2b13b8750945",
             "source": {
