@@ -918,7 +918,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "User is Authenticated",
+              "name": "Feeback Comment Authenticated",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -932,7 +932,7 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "User is Authenticated"
+              "Feeback Comment Authenticated"
             ],
             "id": "e4d4f0d3-c670-4753-bc06-4d4c1c1417b0",
             "source": {
