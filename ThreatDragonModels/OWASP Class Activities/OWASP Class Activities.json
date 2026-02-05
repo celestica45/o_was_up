@@ -303,50 +303,6 @@
             "shape": "trust-boundary-curve",
             "width": 200,
             "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Boundary",
-              "name": "Trust Boundary",
-              "description": "",
-              "isTrustBoundary": true,
-              "hasOpenThreats": false,
-              "crossingFlows": [],
-              "containedElements": []
-            },
-            "labels": [
-              "Trust Boundary"
-            ],
-            "id": "6b49954e-820f-41c0-b53f-55229be8be83",
-            "source": {
-              "x": 1270,
-              "y": 400
-            },
-            "target": {
-              "x": 1690,
-              "y": 370
-            },
-            "vertices": [
-              {
-                "x": 1530,
-                "y": 460
-              }
-            ],
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead"
-              ],
-              "name": null
-            }
-          },
-          {
-            "shape": "trust-boundary-curve",
-            "width": 200,
-            "height": 100,
             "zIndex": 11,
             "connector": "smooth",
             "data": {
@@ -733,6 +689,40 @@
               "providesAuthentication": false,
               "threats": []
             }
+          },
+          {
+            "shape": "trust-boundary-curve",
+            "width": 200,
+            "height": 100,
+            "zIndex": 15,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Boundary",
+              "name": "Trust Boundary",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false,
+              "crossingFlows": [],
+              "containedElements": []
+            },
+            "labels": [
+              "Trust Boundary"
+            ],
+            "id": "6b49954e-820f-41c0-b53f-55229be8be83",
+            "source": {
+              "x": 290,
+              "y": 460
+            },
+            "target": {
+              "x": 710,
+              "y": 430
+            },
+            "vertices": [
+              {
+                "x": 510,
+                "y": 540
+              }
+            ]
           }
         ],
         "description": "Use OWASP Threat Dragon to recreate the reference data flow diagram. Note: Threats and Scores/Priority Levels are not included in this activity."
